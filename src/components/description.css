@@ -1,0 +1,52 @@
+.description{
+    height: fit-content;
+    width: 40vw;
+}
+
+.description > h1{
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+.description > span{
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+#price{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+    font-size: 2.5rem;
+}
+
+#discount{
+    color: #0096FF;
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.benifit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: 3rem;
+}
+
+.benifit > img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.benifit > h2{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 4rem;
+}
